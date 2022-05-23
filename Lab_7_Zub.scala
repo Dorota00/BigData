@@ -88,3 +88,13 @@ deleteContent("Sample")
 
 // MAGIC %sql
 // MAGIC SELECT * FROM Sample.Logical;
+
+// COMMAND ----------
+
+// MAGIC %md
+// MAGIC Jar
+
+// COMMAND ----------
+
+// MAGIC %md
+// MAGIC https://github.com/Dorota00/Jar
