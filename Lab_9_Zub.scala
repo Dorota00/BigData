@@ -51,24 +51,3 @@ stringList(0)
 // Second example
 val prices: Seq[Double] = Seq(1.5, 2.0, 2.5)
 val sum = prices.foldLeft(0.0)(_ + _)
-
-// COMMAND ----------
-
-// MAGIC %md
-// MAGIC 2b
-
-// COMMAND ----------
-
-import org.apache.spark.sql.DataFrame
-
-def deleteNestedFields(fields:Map):DataFrame = { 
-    //json.foldLeft(json.withColumn("newCol", $.dropFields(fields:_*)) {
-    //  (k, v) =>
-    }
-}
-
-// COMMAND ----------
-
-val excludedNestedFields = Map("pathLinkInfo" -> Array("alternateName","sourceFID"))
-
-//deleteNestedFields(excludedNestedFields)
